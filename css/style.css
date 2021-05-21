@@ -1,0 +1,21 @@
+.gallery-settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  background-color: #726a6a;
+}
+
+.gallery-settings .upload-form {
+  display: block;
+  width: 60%;
+}
+
+.gallery-settings .upload-form .upload-form__input {
+  width: 100%;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
