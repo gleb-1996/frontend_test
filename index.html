@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Галерея</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/02981573a7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="gallery-settings">
-        <form class="upload-form">
-            <input type="text" class="upload-form__input" placeholder="URL изображения или файла со списком изображений">
-            <button class="upload-form__button">Загрузить</button>
-        </form>
+        <i class="far fa-times-circle gallery-settings__close-btn"></i>
+        <div class="container">
+            <form class="upload-form">
+                <input type="text" class="upload-form__input" placeholder="URL изображения или файла со списком изображений">
+                <button class="upload-form__button">Загрузить</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
