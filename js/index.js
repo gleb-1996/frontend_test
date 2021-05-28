@@ -39,14 +39,16 @@ $('.upload-form__button').click(function(event){
     if (url === '') {
         alert('Пожалуйста, введите данные!');
     } else {
-        loadingImages(url);
+        extensionСheck(url, imageExtensions)
+        //loadingImages(url);
     }
 });
 
 // Функция проверки расширения файла
 
-function extensionСheck(url) {
-
+function extensionСheck(url, ext) {
+    console.log(url);
+    console.log(ext);
 }
 
 // Функция загрузки изображений по URL
