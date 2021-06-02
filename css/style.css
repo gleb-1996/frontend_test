@@ -240,14 +240,6 @@ html {
   color: #ccc;
 }
 
-.drop-form__view-img {
-  margin-top: 10px;
-}
-
-.drop-form__view-img img {
-  width: 150px;
-}
-
 #drop-file {
   display: none;
 }
