@@ -12,23 +12,30 @@
     <script src="https://kit.fontawesome.com/02981573a7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="gallery-settings">
+    <div class="gallery-settings hide">
         <i class="far fa-times-circle gallery-settings__close-btn"></i>
         <div class="container">
             <form class="upload-form">
                 <input type="text" class="upload-form__input" placeholder="URL изображения или файла формата .json">
                 <button class="upload-form__button">Загрузить</button>
             </form>
+            <div class="drop-area">
+                <form class="drop-form">
+                    <p class="drop-form__par">Загрузите изображения по кнопке ниже или перетащите нужные изображения в выделенную область</p>
+                    <input type="file" id="drop-file" accept="image/*" onchange="handleFiles(this.files)">
+                    <label class="drop-form__btn" for="drop-file">Выбрать изображение</label>
+                </form>
+            </div>
         </div>
     </div>
     <header class="header">
         <i class="fas fa-cog header__settings-btn"></i>
     </header>
     <div class="gallery">
+        <div class="message-gallery"><p>Пока нет изображений</p><span class="message-gallery__add">Добавить</span></div>
         <div class="container-gallery"></div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
