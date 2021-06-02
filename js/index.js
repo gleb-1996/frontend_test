@@ -1,12 +1,3 @@
-/* 
-
-Ссылка на файл JSON
-
-https://raw.githubusercontent.com/gleb-1996/test-db/main/gallery-images.json
-https://docs.google.com/document/d/1jVU6m5qKcgXpSd0jCawymUqeqc2D3x-hD22bKzhLOzc/edit
-
-*/
-
 /* МАССИВЫ И ЭЛЕМЕНТЫ */
 
 let arrImages = [];
