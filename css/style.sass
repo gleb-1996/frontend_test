@@ -3,6 +3,7 @@
 $cont: 1024px
 $cont-gallary: 860px
 $rows: 3
+$rowsMobil: 1
 $font: 'Roboto', sans-serif
 $thin: 100
 $light: 300
@@ -100,14 +101,13 @@ html
     flex-wrap: wrap
     @media screen and (max-width: 860px)
         width: 100%
-        justify-content: center
 .block-img
     position: relative
     box-sizing: border-box
     width: $cont-gallary / $rows
     padding: 5px
     @media screen and (max-width: 860px)
-        width: 100% / ($rows - 1)
+        width: 100% / $rowsMobil
     &__img
         width: 100%
         height: auto

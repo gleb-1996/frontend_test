@@ -136,9 +136,6 @@ html {
 @media screen and (max-width: 860px) {
   .container-gallery {
     width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
@@ -152,7 +149,7 @@ html {
 
 @media screen and (max-width: 860px) {
   .block-img {
-    width: 50%;
+    width: 100%;
   }
 }
 
